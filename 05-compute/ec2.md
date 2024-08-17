@@ -88,7 +88,7 @@
 
 ## EC2 Networking
 
-- Instances are created with a primary ENI, this can not be removed or detached from the instance
+- Instances are created with a primary ENI, <mark>this can not be removed or detached from the instance</mark>
 - Secondary ENIs can be added to an instance which can be in different subnets (NOT AZs!)
 - Secondary ENIs can be detached and attached to other instances
 - Security Groups are associated with an ENI, not an EC2 instances

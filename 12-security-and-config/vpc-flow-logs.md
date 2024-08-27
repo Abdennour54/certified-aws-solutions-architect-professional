@@ -9,6 +9,7 @@
     - Network interface: only monitor traffic at a specific interface
 - VPC Flow Logs are NOT realtime, there is delay between traffic leaving monitored interfaces and showing up in the flow logs
 - Flow logs can be configured to use S3, CloudWatch Logs or Kinesis Firehose for the destination
+- Flow log data is collected outside of the path of your network traffic, and therefore does not affect network throughput or latency. 
 
 ## VPC Flow Logs Record Content
 

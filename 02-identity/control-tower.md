@@ -11,9 +11,7 @@
     - Provides via other AWS services:
         - SSO/ID Federation
         - Centralized logging and auditing
-    <div style="border-left: 4px solid #FFA500; padding: 10px;">
-  <strong>⚠️ Warning:</strong> Seems like AWS control tower can't be used without a landing zone! also even though we can enrol existing account in control tower not sure there is benefit from doing so.
-</div>
+    <div style="border-left: 4px solid #FFA500; padding: 10px;"> <strong>⚠️ Warning:</strong> Seems like AWS control tower can't be used without a landing zone! also even though we can enrol existing account in control tower not sure there is benefit from doing so.</div>
 - **Guard Rails**: used to detect/mandate rules and standards across all accounts
 - **Account Factory**: automates and standardizes new account creation
 - **Dashboard**: single page oversight of the entire environment
